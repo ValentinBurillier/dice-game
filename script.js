@@ -16,8 +16,8 @@ let rollDiceBtn = document.getElementsByClassName('btn-rollDice')[0];
 let btnRestart = document.getElementsByClassName('btn-restart')[0];
 btnRestart.classList.replace('btn--enable', 'btn--disabled')
   // JOUEURS
-let joueur1 = 'Joueur 1';
-let joueur2 = 'Joueur 2';
+let joueur1 = 'PLAYER 1';
+let joueur2 = 'PLAYER 2';
 
 let player1 = true;
 let player2 = false;
@@ -247,7 +247,7 @@ function dices(numberDice) {
 
 /* SCORE VERIFICATION */
 function verification(score, player) {
-  if (score >= 10) {
+  if (score >= 100) {
     let playerWin = player
 
     // REMOVE START BUTTON
