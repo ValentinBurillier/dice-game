@@ -1,0 +1,26 @@
+@import '../components/_containerDices'
+@import '../atoms/_btnAll'
+@import '../atoms/_btnStart'
+@import '../atoms/_btnRestart'
+.section__middle
+  display: flex
+  justify-content: center
+  align-items: center
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  width: 100%
+  padding: 0px 20px
+
+@media screen and (min-width: 400px) and (min-height: 568px)
+  .section__middle
+    width: 90%
+
+@media screen and (min-width: 700px) and (min-height: 568px)
+  .section__middle
+    width: 80%
+
+@media screen and (min-width: 1200px) and (min-height: 600px)
+  .section__middle
+    position: absolute

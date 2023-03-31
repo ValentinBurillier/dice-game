@@ -1,0 +1,32 @@
+@import '../utils/_variables'
+.scoreCours, .scoreTotal
+  width: 60px
+  height: 60px
+  display: flex
+  justify-content: center
+  align-items: center
+  background: $second-color
+  font-size: 1.5rem
+  box-shadow: 2px 2px
+
+
+@media screen and (min-width: 400px) and (min-height: 568px)
+  .score__text
+    font-size: 1.5rem
+  .scoreCours, .scoreTotal
+    height: 70px
+    width: 70px
+
+@media screen and (min-width: 700px) and (min-height: 568px)
+  .score__text
+    font-size: 2rem
+  .scoreCours, .scoreTotal
+    height: 80px
+    width: 80px
+    font-size: 2rem
+
+
+@media screen and (min-width: 1200px) and (min-height: 600px)
+    .scoreCours, .scoreTotal
+      box-shadow: 2px 2px
+  

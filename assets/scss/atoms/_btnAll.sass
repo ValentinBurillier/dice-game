@@ -1,0 +1,28 @@
+@import '../utils/_variables'
+
+.btn--enable
+  visibility: visible
+
+.btn--disabled
+  visibility: hidden
+
+.btn
+  width: 25%
+  background-color: $second-color
+  color: $third-color
+  padding: 5px
+  box-shadow: 4px 4px 0px 0px black
+
+.btn:hover
+  cursor: pointer
+@media screen and (min-width: 400px) and (min-height: 568px)
+  .btn
+    font-size: 1.2rem
+
+@media screen and (min-width: 700px) and (min-height: 568px)
+  .btn
+    font-size: 1.5rem
+
+@media screen and (min-width: 1200px) and (min-height: 600px)
+  .btn
+    box-shadow: 4px 4px 0px 0px black
