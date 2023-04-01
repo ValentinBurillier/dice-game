@@ -5,7 +5,7 @@ This project is supervised by the online school Studi with the aim of obtaining 
 This is an evaluation consisting of the creation of a dice game involving two players.
 
 ## RULES OF THE GAME
-Each player chooses to roll the dice in order to increase their score or keep thieur current score.
+Each player chooses to roll the dice in order to increase their score or keep their current score.
 Be careful, if the dice returns 1, the current score is lost and it is the next player's turn.
 The first to keep a total at least 100 points wins.
 Here, player 1 always starts at the start if the game.
@@ -13,7 +13,7 @@ Here, player 1 always starts at the start if the game.
 ## USED TOOLS
 TRELLO : for the organization of daily tasks
 FIGMA : for the realization of the mobile and computer model
-SASS : fot thr organization of the style files
+SASS : for the organization of the style files
 GITHUB : for the code stockage, maintainability and online deployment
 
 ## PROBLEM ENCOUNTERED NOT RESOLVED
